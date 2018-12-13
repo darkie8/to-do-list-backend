@@ -1,0 +1,50 @@
+{
+  "name": "real-time-to-do-list",
+  "version": "1.0.0",
+  "description": "backend for real time to do list app. To be used exclusively for tsting purpose; not for prof use!!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkie8/to-do-list-backend.git"
+  },
+  "keywords": [
+    "todolist"
+  ],
+  "author": "darkie8",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darkie8/to-do-list-backend.git/issues"
+  },
+  "homepage": "https://github.com/darkie8/to-do-list-backend.git#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.5",
+    "express-session": "^1.15.6",
+    "express-socket.io-session": "^1.3.2",
+    "fs-extra": "^7.0.1",
+    "googleapis": "^34.0.0",
+    "jsonwebtoken": "^8.1.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "moment-timezone": "^0.5.13",
+    "mongoose": "^5.3.9",
+    "mongoose-sequence": "^4.0.1",
+    "morgan": "^1.9.0",
+    "multer": "^1.4.1",
+    "nodemailer": "^4.6.8",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1",
+    "path": "^0.12.7",
+    "pino": "^5.5.0",
+    "redis": "^2.8.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "shortid": "^2.2.8",
+    "socket.io": "^2.1.1"
+  }
+}
