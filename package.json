@@ -1,5 +1,5 @@
 {
-  "name": "real-time-to-do-list",
+  "name": "meeting-planner",
   "version": "1.0.0",
   "description": "backend for real time to do list app. To be used exclusively for tsting purpose; not for prof use!!",
   "main": "index.js",
@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/darkie8/to-do-list-backend.git"
+    "url": "git+https://github.com/darkie8/meeting-planner.git"
   },
   "keywords": [
-    "todolist"
+    "meetingPlanner"
   ],
   "author": "darkie8",
   "license": "MIT",
