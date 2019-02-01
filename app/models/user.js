@@ -26,8 +26,12 @@ let userSchema = new Schema({
     default: ''
   },
   mobileNumber: {
-    type: Number,
-    default: 000000
+    type: String,
+    default: '000000'
+  },
+  countryCode: {
+    type: String,
+    default: '91'
   },
   createdOn: {
     type: Date,
@@ -49,4 +53,4 @@ let userSchema = new Schema({
 })
 
 
-mongoose.model('User_1', userSchema);
+mongoose.model('User', userSchema);

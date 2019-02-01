@@ -8,6 +8,10 @@ let crudCallback = (err, result, res, function1) => {
         loggererr = 'getAllUser'
         msg = ['Failed To get users details', 'No User Found', 'Users details found']
 
+    } else if (function1 == 'getCountry') {
+        loggererr = 'getCountry'
+        msg = ['Failed To get countires', 'No countries Found', 'country details found']
+
     } else if (function1 == 'getAllIssues') {
         loggererr = 'getAllIssues'
         msg = ['Failed To get issue details', 'No issue Found', 'Issue details found']
