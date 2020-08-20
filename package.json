@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/darkie8/meeting-planner.git#readme",
   "dependencies": {
-    "bcrypt": "^3.0.3",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.18.3",
     "cookie-parser": "^1.4.3",
     "eslint": "^5.12.1",
